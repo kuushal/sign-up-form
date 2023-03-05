@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-logo {
+    height: 70px;
+    width: 80px;
+}
+
+label {
+    display: block;
+}
