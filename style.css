@@ -3,15 +3,74 @@
     margin: 0;
 }
 
-.logo {
-    background-color: rgba(0, 0, 0, 0.3);
+:root {
+    --hero-img--width: 450px;
 }
 
-.hero-logo {
-    height: 70px;
-    width: 80px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "norso";
+    src: url("fonts/Norse-Bold.otf");
+}
+
+.container {
+    display: flex;
+}
+
+/* common styles */
+a {
+    color: white;
 }
 
 label {
     display: block;
+}
+
+/* hero */
+.form-hero {
+    position: relative;
+    max-width: var(--hero-img--width);
+}
+
+.hero-img {
+    height: 100vh;
+    max-width: var(--hero-img--width);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    top: 10rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: var(--hero-img--width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-logo {
+    height: 103px;
+    width: 78px;
+}
+
+.hero-text {
+    color: white;
+    font-family: norso, sans-serif;
+    font-size: 4.5rem;
+}
+
+.hero-img-credit {
+    position: absolute;
+    bottom: 0.3rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
 }
