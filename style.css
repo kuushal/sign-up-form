@@ -33,6 +33,25 @@ h3 {
     font-size: 1.25rem;
 }
 
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+input[type="password"] {
+    margin-bottom: 0;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+:focus {
+    border: 1px solid rgb(207, 243, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+}
+
 /* hero */
 .form-hero {
     position: relative;
@@ -85,4 +104,40 @@ h3 {
 
 .header-different {
     padding-top: 1.5rem;
+}
+
+form {
+    padding-left: 2.5rem;
+    padding-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+legend {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: rgb(43, 43, 43);
+}
+
+.form-inputs {
+    display: flex;
+    gap: 4rem;
+}
+
+label {
+    font-size: 0.789rem;
+    letter-spacing: 1px;
+    color: rgb(45, 42, 42);
+}
+
+input {
+    padding: 0.25rem 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+}
+
+input:invalid {
+    border: 1px solid red;
 }
