@@ -141,3 +141,29 @@ input {
 input:invalid {
     border: 1px solid red;
 }
+
+.form-footer {
+    background-color: rgb(249, 249, 249);
+    padding-bottom: 6rem;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #596D48;
+    padding: 0.75rem 2rem;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.account {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.log-in {
+    color: #596D48;
+    cursor: pointer;
+}
